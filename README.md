@@ -11,8 +11,8 @@ and this repo.
     shell> cd $PARENT_DIR
     shell> git clone https://github.com/darwinex/dwx-zeromq-connector
 
-### Follow the instructions in the README.md to get it setup
-you need to do some unzipping and copying
+### Follow the instructions in that README.md to get it setup
+you need to do some unzipping and copying.
     
 ## Clone this repository
     shell> cd $PARENT_DIR
@@ -23,14 +23,16 @@ you need to do some unzipping and copying
     shell> pip install -r requirements.txt
 
 ## Set the absolute path to dwx-zeromq-connector 
-Edit 
+Edit [setpath.py](https://github.com/metaperl/telegram-autotrader/blob/master/src/setpath.py)
+so that the first line in [simple.py](https://github.com/metaperl/telegram-autotrader/blob/master/src/simple.py)
+works:
+
+    from DWX_ZeroMQ_Connector_v2_0_1_RC8 import DWX_ZeroMQ_Connector
 
 ## At this point you have two directories
 Both below `PARENT_DIR` and sibling to each other.
 
 ## Make sure that you can issue signals from Python to MT4
-
-
 
     shell> cd telegram-autotrader/src
     shell> python simple.py
