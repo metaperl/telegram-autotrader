@@ -15,3 +15,6 @@ my_trade = zmq._generate_default_order_dict()
 my_trade['_type'] = OP_SELL
 my_trade['_symbol'] = 'CHFJPY'
 zmq._DWX_MTX_NEW_TRADE_(_order=my_trade)
+
+resp = zmq._thread_data_output
+print(f"response={resp}")

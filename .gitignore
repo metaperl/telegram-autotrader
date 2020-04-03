@@ -5,6 +5,8 @@ __pycache__/
 
 src/pyrogramconf.py
 
+my_account.session
+
 # C extensions
 *.so
 
