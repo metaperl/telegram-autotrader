@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf70b34-80f7-4384-aaeb-2a72d6845347" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mt4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simple2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/simple-sell_stop.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/my_account.session" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_account.session" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/simple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/simple2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/telegram_to_mt4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/telegram_to_mt4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585855709969</updated>
-      <workItem from="1585855719525" duration="7721000" />
+      <workItem from="1585855719525" duration="10236000" />
     </task>
     <servers />
   </component>
