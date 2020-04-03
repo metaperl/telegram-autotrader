@@ -21,6 +21,12 @@ class MT4:
 
     zmq: Any = field(default_factory=DWX_ZeroMQ_Connector)
 
+
+    # TODO:
+    # place order based on current market price
+    # if market price "worse" (less profitable than entry) or near entry price, then enter at market
+    # if market price "better" (more profitable than entry) then enter with a STOP order
+
     def stop_order(self, trade_type, symbol, price, lots=0.01, sl=170, tp=20):
         """
 

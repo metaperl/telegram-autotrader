@@ -13,8 +13,8 @@ OP_SELL_STOP = 5
 zmq = DWX_ZeroMQ_Connector()
 my_trade = zmq._generate_default_order_dict()
 my_trade['_type'] = OP_SELL_LIMIT
-my_trade['_symbol'] = 'CHFJPY'
-my_trade['_price'] = 110.400
+my_trade['_symbol'] = 'EURCHF'
+my_trade['_price'] = 1.06
 zmq._DWX_MTX_NEW_TRADE_(_order=my_trade)
 
 resp = zmq._thread_data_output

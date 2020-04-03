@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf70b34-80f7-4384-aaeb-2a72d6845347" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/simple-sell_stop.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my_account.session" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_account.session" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simple2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/simple2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/telegram_to_mt4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/telegram_to_mt4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mt4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mt4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple-sell_limit.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/simple-sell_limit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple-sell_stop.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/simple-sell_stop.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585855709969</updated>
-      <workItem from="1585855719525" duration="10236000" />
+      <workItem from="1585855719525" duration="11649000" />
     </task>
     <servers />
   </component>
@@ -71,5 +70,9 @@
       <screen x="0" y="0" width="1536" height="802" />
     </state>
     <state x="279" y="46" key="SettingsEditor/0.0.1536.802@0.0.1536.802" timestamp="1585856727119" />
+    <state x="431" y="123" width="672" height="678" key="search.everywhere.popup" timestamp="1585901327071">
+      <screen x="0" y="0" width="1536" height="802" />
+    </state>
+    <state x="431" y="123" width="672" height="678" key="search.everywhere.popup/0.0.1536.802@0.0.1536.802" timestamp="1585901327071" />
   </component>
 </project>
