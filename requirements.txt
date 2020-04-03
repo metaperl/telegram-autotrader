@@ -1,3 +1,4 @@
 zmq
 pandas
 pyrogram
+pyparsing

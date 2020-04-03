@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf70b34-80f7-4384-aaeb-2a72d6845347" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/channel/olafemi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/etc/helloworld-pyparsing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mt4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mt4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simple-sell_limit.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/simple-sell_limit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simple-sell_stop.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/simple-sell_stop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my_account.session" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_account.session" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/telegram_to_mt4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/telegram_to_mt4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585855709969</updated>
-      <workItem from="1585855719525" duration="11649000" />
+      <workItem from="1585855719525" duration="21769000" />
     </task>
     <servers />
   </component>

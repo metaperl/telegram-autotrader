@@ -26,6 +26,22 @@ class MT4:
     # place order based on current market price
     # if market price "worse" (less profitable than entry) or near entry price, then enter at market
     # if market price "better" (more profitable than entry) then enter with a STOP order
+    # be sure to log logic
+    # Alternatively, just enter both a STOP and LIMIT order
+    # and enter a certain number of each
+
+    def pending_order(self, trade_type, symbol, price, lots=0.01, sl=170, tp=20):
+        """
+
+        :param trade_type: should be either OP_BUY_STOP or OP_BUY_LIMIT
+        :param symbol: e.g. EURUSD
+        :param price: entry price for buy/sell stop
+        :param lots: e.g. 0.01
+        :param sl: how many pips away from entry is the SL
+        :param tp: how many pips away from entry is the TP
+        :return:
+        """
+
 
     def stop_order(self, trade_type, symbol, price, lots=0.01, sl=170, tp=20):
         """
