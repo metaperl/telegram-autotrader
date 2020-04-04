@@ -50,10 +50,28 @@ def list_to_dict(lst):
     res_dct = {lst[i]: lst[i + 1] for i in range(0, len(lst), 2)}
     return res_dct
 
-if __name__ == '__main__':
-    result = trade_signal.parseString(sample_signal)
+def parse(signal):
+    result = trade_signal.parseString(signal)
     print(f"Result of parsing={result}")
     result = result[1:-1]
     print(f"Trimmed Result of parsing={result}")
     dict = list_to_dict(result)
     print(f"Dict={dict}")
+    dict2 = {}
+    for k, v in dict.items():
+        k = k[:-1]
+        print(k)
+        k = k.lower()
+        if k in "entry takeprofit stoploss":
+            print("\tconverting...")
+            v = float(v)
+        dict2[k] = v
+
+    dict = dict2
+
+    print(f"Dict={dict}")
+    return dict
+
+
+if __name__ == '__main__':
+    parse(sample_signal)

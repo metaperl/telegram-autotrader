@@ -1,5 +1,4 @@
 
-import setpath
 from DWX_ZeroMQ_Connector_v2_0_1_RC8 import DWX_ZeroMQ_Connector
 
 # ---> it is possible to add SL and TP to a SELL STOP order when placing it

@@ -22,19 +22,25 @@ you need to do some unzipping and copying.
     shell> cd telegram-autotrader
     shell> pip install -r requirements.txt
 
-## Set the absolute path to dwx-zeromq-connector 
-Edit [setpath.py](https://github.com/metaperl/telegram-autotrader/blob/master/src/setpath.py)
-so that the first line in [simple.py](https://github.com/metaperl/telegram-autotrader/blob/master/src/simple.py)
-works:
-
-    from DWX_ZeroMQ_Connector_v2_0_1_RC8 import DWX_ZeroMQ_Connector
-
 ## At this point you have two directories
 Both below `PARENT_DIR` and sibling to each other.
+
+### Configure Python's module import
+
+Extend `PYTHONPATH`. On windows, I needed to add the following 2 paths:
+
+    C:\cygwin64\home\terre\prg\telegram-autotrader\src;C:\cygwin64\home\terre\prg\dwx-zeromq-connector\v2.0.1\python\api
 
 ## Make sure that you can issue signals from Python to MT4
 
     shell> cd telegram-autotrader/src
     shell> python simple.py
+
+## Now run the telegram_to_mt4.py
+
+    shell> python telegram_to_mt4.py
+    
+# May the profits be with you!
+
 
 
