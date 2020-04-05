@@ -67,6 +67,7 @@ class MT4:
 
         my_trade = self.zmq._generate_default_order_dict()
         my_trade['_type'] = trade_type
+        my_trade['_price'] = price
         my_trade['_symbol'] = symbol
         my_trade['_SL'] = sl
         my_trade['_TP'] = tp

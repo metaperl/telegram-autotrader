@@ -24,9 +24,9 @@ def my_handler(client, message):
     result = channel.olafemi.parse(message.text)
     print(f"Parse result={result}")
 
-    interface = mt4.MT4()
-    interface.both_pending_orders(
-        result['action'], LOT_SIZE, result['symbol'], result['entry'], result['stop_loss'], result['take_profit']
+    trade = mt4.MT4()
+    trade.both_pending_orders(
+        result['action'], LOT_SIZE, result['symbol'], result['entry'], result['stoploss'], result['takeprofit']
     )
 
 

@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf70b34-80f7-4384-aaeb-2a72d6845347" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/channel/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pips.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/channel/olafemi.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/channel/olafemi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mt4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mt4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/my_account.session" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_account.session" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simple-sell_limit.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/simple-sell_limit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simple-sell_market.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/simple-sell_market.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simple-sell_stop.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/simple-sell_stop.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/telegram_to_mt4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/telegram_to_mt4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,22 +60,38 @@
       <updated>1585855709969</updated>
       <workItem from="1585855719525" duration="22440000" />
       <workItem from="1585998061098" duration="6435000" />
-      <workItem from="1586006331682" duration="2915000" />
+      <workItem from="1586006331682" duration="5793000" />
     </task>
+    <task id="LOCAL-00001" summary="karatbars gold is real money.">
+      <created>1586011297812</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586011297812</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="karatbars gold is real money." />
+    <option name="LAST_COMMIT_MESSAGE" value="karatbars gold is real money." />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="406" y="0" key="CommitChangelistDialog2" timestamp="1586011161392">
+    <state x="406" y="0" key="CommitChangelistDialog2" timestamp="1586011294453">
       <screen x="0" y="0" width="1536" height="802" />
     </state>
-    <state x="406" y="0" key="CommitChangelistDialog2/0.0.1536.802@0.0.1536.802" timestamp="1586011161392" />
+    <state x="406" y="0" key="CommitChangelistDialog2/0.0.1536.802@0.0.1536.802" timestamp="1586011294453" />
     <state x="279" y="46" key="SettingsEditor" timestamp="1585856727119">
       <screen x="0" y="0" width="1536" height="802" />
     </state>
     <state x="279" y="46" key="SettingsEditor/0.0.1536.802@0.0.1536.802" timestamp="1585856727119" />
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1586117907739">
+      <screen x="0" y="0" width="1536" height="802" />
+    </state>
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.802@0.0.1536.802" timestamp="1586117907739" />
     <state x="477" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1586006540007">
       <screen x="0" y="0" width="1536" height="802" />
     </state>
