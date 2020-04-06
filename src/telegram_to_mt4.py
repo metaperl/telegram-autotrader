@@ -17,11 +17,10 @@ def my_handler(client, message):
     chatroom_name = message.chat.title
 
     if not chatroom_name or (SIGNAL_CHANNEL_PREFIX not in chatroom_name):
-        print(f"Message is not in {SIGNAL_CHANNEL_PREFIX}. Not parsing message.")
+        # print(f"Message is not in {SIGNAL_CHANNEL_PREFIX}. Not parsing message.")
         return
 
     print(f"Relevant Message Received={message}")
-
 
     result = channel.olafemi.parse(message.text)
     print(f"Parse result={result}")
