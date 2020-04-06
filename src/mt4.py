@@ -49,7 +49,7 @@ class MT4:
         take_profit_pips = pips.pips_between(entry, take_profit)
 
         for action in actions[trade_type]:
-            self.order(action, symbol, entry, stop_loss_pips, take_profit_pips)
+            self.order(action, symbol, entry, lots, stop_loss_pips, take_profit_pips)
 
     def order(self, trade_type, symbol, price, lots=0.01, sl=170, tp=20):
         """
@@ -62,14 +62,17 @@ class MT4:
         :param tp: how many pips away from entry is the TP
         :return:
         """
-        sl = self.pips_to_points(sl)
-        tp = self.pips_to_points(tp)
+        sl = pips.to_points(sl)
+        tp = pips.to_points(tp)
 
         my_trade = self.zmq._generate_default_order_dict()
+        print(f"Default order dict={my_trade}")
         my_trade['_type'] = trade_type
         my_trade['_price'] = price
         my_trade['_symbol'] = symbol
-        my_trade['_SL'] = sl
+        # Changing SL yields invalid stop...
+        # my_trade['_SL'] = sl
         my_trade['_TP'] = tp
         my_trade['_lots'] = lots
+        print(f"Placing order{my_trade}")
         self.zmq._DWX_MTX_NEW_TRADE_(_order=my_trade)

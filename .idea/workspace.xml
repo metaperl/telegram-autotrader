@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mt4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mt4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/my_account.session" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_account.session" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/telegram_to_mt4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/telegram_to_mt4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pips.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pips.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,9 @@
       <updated>1585855709969</updated>
       <workItem from="1585855719525" duration="22440000" />
       <workItem from="1585998061098" duration="6435000" />
-      <workItem from="1586006331682" duration="5793000" />
+      <workItem from="1586006331682" duration="6608000" />
+      <workItem from="1586148767966" duration="970000" />
+      <workItem from="1586175830035" duration="1473000" />
     </task>
     <task id="LOCAL-00001" summary="karatbars gold is real money.">
       <created>1586011297812</created>
@@ -69,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586011297812</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="spelling of take_profit and stop_loss">
+      <created>1586117974944</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586117975836</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,25 +86,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="karatbars gold is real money." />
-    <option name="LAST_COMMIT_MESSAGE" value="karatbars gold is real money." />
+    <MESSAGE value="spelling of take_profit and stop_loss" />
+    <option name="LAST_COMMIT_MESSAGE" value="spelling of take_profit and stop_loss" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="406" y="0" key="CommitChangelistDialog2" timestamp="1586011294453">
+    <state x="406" y="0" key="CommitChangelistDialog2" timestamp="1586117972217">
       <screen x="0" y="0" width="1536" height="802" />
     </state>
-    <state x="406" y="0" key="CommitChangelistDialog2/0.0.1536.802@0.0.1536.802" timestamp="1586011294453" />
+    <state x="406" y="0" key="CommitChangelistDialog2/0.0.1536.802@0.0.1536.802" timestamp="1586117972217" />
     <state x="279" y="46" key="SettingsEditor" timestamp="1585856727119">
       <screen x="0" y="0" width="1536" height="802" />
     </state>
     <state x="279" y="46" key="SettingsEditor/0.0.1536.802@0.0.1536.802" timestamp="1585856727119" />
-    <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1586117907739">
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1586117981052">
       <screen x="0" y="0" width="1536" height="802" />
     </state>
-    <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.802@0.0.1536.802" timestamp="1586117907739" />
-    <state x="477" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1586006540007">
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.802@0.0.1536.802" timestamp="1586117981052" />
+    <state x="477" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1586175891980">
       <screen x="0" y="0" width="1536" height="802" />
     </state>
-    <state x="477" y="228" key="com.intellij.ide.util.TipDialog/0.0.1536.802@0.0.1536.802" timestamp="1586006540007" />
+    <state x="477" y="228" key="com.intellij.ide.util.TipDialog/0.0.1536.802@0.0.1536.802" timestamp="1586175891980" />
     <state x="431" y="123" width="672" height="678" key="search.everywhere.popup" timestamp="1585901327071">
       <screen x="0" y="0" width="1536" height="802" />
     </state>

@@ -48,6 +48,8 @@ def pips_between(price1, price2):
     diff = abs(price1 - price2) * multiplier(price1)
     return round(diff, 1)
 
+def to_points(pips):
+    return int(pips * 10)
 
 if __name__ == '__main__':
     prices=[
