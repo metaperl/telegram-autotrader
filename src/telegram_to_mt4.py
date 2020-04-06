@@ -14,12 +14,14 @@ app = Client("my_account", pyrogramconf.api_id, pyrogramconf.api_hash)
 
 @app.on_message()
 def my_handler(client, message):
-    print(f"Message Received={message}")
     chatroom_name = message.chat.title
 
     if not chatroom_name or (SIGNAL_CHANNEL_PREFIX not in chatroom_name):
         print(f"Message is not in {SIGNAL_CHANNEL_PREFIX}. Not parsing message.")
         return
+
+    print(f"Relevant Message Received={message}")
+
 
     result = channel.olafemi.parse(message.text)
     print(f"Parse result={result}")
