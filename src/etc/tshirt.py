@@ -37,7 +37,7 @@ class Products(object):
         self.blues_total = self.total('blues')
         """
         sum = 0
-        for key in inventory[inventory_index]:
+        for key in self.inventory[inventory_index]:
             sum += np.sum(self.df.loc[:, key].values)
 
         return sum
