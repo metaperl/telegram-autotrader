@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf70b34-80f7-4384-aaeb-2a72d6845347" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/etc/tshirt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/my_account.session" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_account.session" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +63,9 @@
       <workItem from="1586148767966" duration="970000" />
       <workItem from="1586175830035" duration="2114000" />
       <workItem from="1586198478212" duration="538000" />
+      <workItem from="1586199710635" duration="647000" />
+      <workItem from="1586263898430" duration="595000" />
+      <workItem from="1586306512797" duration="501000" />
     </task>
     <task id="LOCAL-00001" summary="karatbars gold is real money.">
       <created>1586011297812</created>
@@ -90,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586198734985</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Only print when from relevant channel.">
+      <created>1586199751871</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586199751871</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,25 +113,26 @@
     <MESSAGE value="spelling of take_profit and stop_loss" />
     <MESSAGE value="stop_loss cannot be set but TP can..." />
     <MESSAGE value="Only print message when from relevant channel." />
-    <option name="LAST_COMMIT_MESSAGE" value="Only print message when from relevant channel." />
+    <MESSAGE value="Only print when from relevant channel." />
+    <option name="LAST_COMMIT_MESSAGE" value="Only print when from relevant channel." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="406" y="0" key="CommitChangelistDialog2" timestamp="1586198731636">
+    <state x="406" y="0" key="CommitChangelistDialog2" timestamp="1586199750228">
       <screen x="0" y="0" width="1536" height="802" />
     </state>
-    <state x="406" y="0" key="CommitChangelistDialog2/0.0.1536.802@0.0.1536.802" timestamp="1586198731636" />
+    <state x="406" y="0" key="CommitChangelistDialog2/0.0.1536.802@0.0.1536.802" timestamp="1586199750228" />
     <state x="279" y="46" key="SettingsEditor" timestamp="1585856727119">
       <screen x="0" y="0" width="1536" height="802" />
     </state>
     <state x="279" y="46" key="SettingsEditor/0.0.1536.802@0.0.1536.802" timestamp="1585856727119" />
-    <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1586199011961">
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1586199754376">
       <screen x="0" y="0" width="1536" height="802" />
     </state>
-    <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.802@0.0.1536.802" timestamp="1586199011961" />
-    <state x="477" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1586199721709">
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.802@0.0.1536.802" timestamp="1586199754376" />
+    <state x="477" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1586306519123">
       <screen x="0" y="0" width="1536" height="802" />
     </state>
-    <state x="477" y="228" key="com.intellij.ide.util.TipDialog/0.0.1536.802@0.0.1536.802" timestamp="1586199721709" />
+    <state x="477" y="228" key="com.intellij.ide.util.TipDialog/0.0.1536.802@0.0.1536.802" timestamp="1586306519123" />
     <state x="431" y="123" width="672" height="678" key="search.everywhere.popup" timestamp="1585901327071">
       <screen x="0" y="0" width="1536" height="802" />
     </state>
