@@ -30,15 +30,19 @@ if not symbol_info.visible:
 lot = 0.01
 point = mt5.symbol_info(symbol).point
 price = mt5.symbol_info_tick(symbol).ask
+
+entry = price - 100 * point
+
 deviation = 20
 request = {
     "action": mt5.TRADE_ACTION_DEAL,
     "symbol": symbol,
     "volume": lot,
-    "type": mt5.ORDER_TYPE_BUY,
-    "price": price,
-    "sl": price - 100 * point,
-    "tp": price + 100 * point,
+    "type": mt5.ORDER_TYPE_BUY_LIMIT,
+    "price" : entry,
+    "stoplimit": entry,
+    "sl": entry - 100 * point,
+    "tp": entry + 100 * point,
     "deviation": deviation,
     "magic": 234000,
     "comment": "python script open",

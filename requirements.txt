@@ -2,3 +2,6 @@ zmq
 pandas
 pyrogram
 pyparsing
+matplotlib
+MetaTrader5
+pymt5adapter

@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf70b34-80f7-4384-aaeb-2a72d6845347" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/etc/tshirt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/etc/pymt5adapter/trysymbol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/telegram_to_mt5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/telegram-autotrader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/telegram-autotrader.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/etc/account_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/etc/account_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/etc/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/etc/graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/etc/order_send.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/etc/order_send.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/etc/order_send_limit.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/etc/order_send_limit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/etc/pymt5adapter/limit_order.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mt5.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/my_account.session" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_account.session" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,13 +36,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -40,11 +52,13 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\cygwin64\home\terre\prg\telegram-autotrader\src" />
+      <recent name="C:\cygwin64\home\terre\prg\telegram-autotrader\src\etc" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -65,7 +79,10 @@
       <workItem from="1586198478212" duration="538000" />
       <workItem from="1586199710635" duration="647000" />
       <workItem from="1586263898430" duration="595000" />
-      <workItem from="1586306512797" duration="501000" />
+      <workItem from="1586306512797" duration="1159000" />
+      <workItem from="1586387593327" duration="139000" />
+      <workItem from="1586388574196" duration="681000" />
+      <workItem from="1592573708680" duration="19722000" />
     </task>
     <task id="LOCAL-00001" summary="karatbars gold is real money.">
       <created>1586011297812</created>
@@ -102,11 +119,25 @@
       <option name="project" value="LOCAL" />
       <updated>1586199751871</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="help out reddit users.">
+      <created>1586307106160</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586307106160</updated>
+    </task>
+    <task id="LOCAL-00007" summary="help out reddit users.">
+      <created>1586307125446</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586307125446</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="karatbars gold is real money." />
@@ -114,25 +145,34 @@
     <MESSAGE value="stop_loss cannot be set but TP can..." />
     <MESSAGE value="Only print message when from relevant channel." />
     <MESSAGE value="Only print when from relevant channel." />
-    <option name="LAST_COMMIT_MESSAGE" value="Only print when from relevant channel." />
+    <MESSAGE value="help out reddit users." />
+    <option name="LAST_COMMIT_MESSAGE" value="help out reddit users." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="406" y="0" key="CommitChangelistDialog2" timestamp="1586307103766">
+    <state x="449" y="140" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586387630517">
       <screen x="0" y="0" width="1536" height="802" />
     </state>
-    <state x="406" y="0" key="CommitChangelistDialog2/0.0.1536.802@0.0.1536.802" timestamp="1586307103766" />
+    <state x="449" y="140" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.802@0.0.1536.802" timestamp="1586387630517" />
+    <state x="406" y="0" key="CommitChangelistDialog2" timestamp="1586307124168">
+      <screen x="0" y="0" width="1536" height="802" />
+    </state>
+    <state x="406" y="0" key="CommitChangelistDialog2/0.0.1536.802@0.0.1536.802" timestamp="1586307124168" />
+    <state x="549" y="156" key="FileChooserDialogImpl" timestamp="1592605779197">
+      <screen x="0" y="0" width="1536" height="802" />
+    </state>
+    <state x="549" y="156" key="FileChooserDialogImpl/0.0.1536.802@0.0.1536.802" timestamp="1592605779197" />
     <state x="279" y="46" key="SettingsEditor" timestamp="1585856727119">
       <screen x="0" y="0" width="1536" height="802" />
     </state>
     <state x="279" y="46" key="SettingsEditor/0.0.1536.802@0.0.1536.802" timestamp="1585856727119" />
-    <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1586307111037">
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2" timestamp="1586307129182">
       <screen x="0" y="0" width="1536" height="802" />
     </state>
-    <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.802@0.0.1536.802" timestamp="1586307111037" />
-    <state x="477" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1586306519123">
+    <state x="361" y="137" key="Vcs.Push.Dialog.v2/0.0.1536.802@0.0.1536.802" timestamp="1586307129182" />
+    <state x="477" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1586387595973">
       <screen x="0" y="0" width="1536" height="802" />
     </state>
-    <state x="477" y="228" key="com.intellij.ide.util.TipDialog/0.0.1536.802@0.0.1536.802" timestamp="1586306519123" />
+    <state x="477" y="228" key="com.intellij.ide.util.TipDialog/0.0.1536.802@0.0.1536.802" timestamp="1586387595973" />
     <state x="431" y="123" width="672" height="678" key="search.everywhere.popup" timestamp="1585901327071">
       <screen x="0" y="0" width="1536" height="802" />
     </state>

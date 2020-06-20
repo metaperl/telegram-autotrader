@@ -7,17 +7,17 @@ Automatically trade signals from Telegram in Metatrader 4
 and this repo.
 
 ## Clone the dependent repository
-    
+
     shell> cd $PARENT_DIR
     shell> git clone https://github.com/darwinex/dwx-zeromq-connector
 
 ### Follow the instructions in that README.md to get it setup
 you need to do some unzipping and copying.
-    
+
 ## Clone this repository
     shell> cd $PARENT_DIR
     shell> git clone https://github.com/metaperl/telegram-autotrader
-    
+
 ## Install Python dependencies.
     shell> cd telegram-autotrader
     shell> pip install -r requirements.txt
@@ -39,8 +39,5 @@ Extend `PYTHONPATH`. On windows, I needed to add the following 2 paths:
 ## Now run the telegram_to_mt4.py
 
     shell> python telegram_to_mt4.py
-    
+
 # May the profits be with you!
-
-
-
