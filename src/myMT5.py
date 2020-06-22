@@ -45,7 +45,7 @@ class myMT5:
         }
 
         for action in actions[buy_or_sell]:
-            self.order(action, symbol, entry, lots, stop_loss, take_profit)
+            self.order(action, symbol, entry, stop_loss, take_profit, lots)
 
     def order(self, trade_method, symbol, price, sl, tp, lots=0.01):
         """
@@ -70,6 +70,6 @@ class myMT5:
         )
 
         o = trade_method(**order_dict)
-        o.send()
-
+        r = o.send()
+        print(r)
 

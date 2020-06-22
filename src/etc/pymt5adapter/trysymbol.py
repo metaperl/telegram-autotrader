@@ -13,3 +13,4 @@ with pymt5adapter.connected(enable_real_trading=True, debug_logging=True):
     s = MySymbol(symbol_str)
     print("hi there")
     print(s, type(s))
+    

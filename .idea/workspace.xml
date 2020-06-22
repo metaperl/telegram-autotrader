@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faf70b34-80f7-4384-aaeb-2a72d6845347" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/etc/pymt5adapter/trysymbol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/telegram_to_mt5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/telegram-autotrader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/telegram-autotrader.iml" afterDir="false" />
+    <list default="true" id="faf70b34-80f7-4384-aaeb-2a72d6845347" name="Default Changelist" comment="help out reddit users.">
+      <change afterPath="$PROJECT_DIR$/src/etc/pymt5adapter/invalid_volume.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/etc/account_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/etc/account_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/etc/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/etc/graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/etc/order_send.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/etc/order_send.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/etc/order_send_limit.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/etc/order_send_limit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/etc/pymt5adapter/limit_order.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mt5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/etc/pymt5adapter/trysymbol.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/etc/pymt5adapter/trysymbol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myMT5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/myMT5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/my_account.session" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_account.session" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/telegram_to_mt4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/BROKEN.telegram_to_mt4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +37,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/etc/pymt5adapter" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,6 +49,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\cygwin64\home\terre\prg\telegram-autotrader\src\etc\pymt5adapter" />
       <recent name="C:\cygwin64\home\terre\prg\telegram-autotrader\src" />
       <recent name="C:\cygwin64\home\terre\prg\telegram-autotrader\src\etc" />
     </key>
@@ -82,7 +75,8 @@
       <workItem from="1586306512797" duration="1159000" />
       <workItem from="1586387593327" duration="139000" />
       <workItem from="1586388574196" duration="681000" />
-      <workItem from="1592573708680" duration="19722000" />
+      <workItem from="1592573708680" duration="19725000" />
+      <workItem from="1592821832420" duration="607000" />
     </task>
     <task id="LOCAL-00001" summary="karatbars gold is real money.">
       <created>1586011297812</created>

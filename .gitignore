@@ -1,11 +1,15 @@
+src/etc/conf.py
+src/pyrogramconf.py
+.idea/
+my_account.session
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-src/pyrogramconf.py
 
-my_account.session
 
 # C extensions
 *.so
