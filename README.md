@@ -1,5 +1,5 @@
 # telegram-autotrader
-Automatically trade signals from Telegram in Metatrader 4
+Automatically trade signals from Telegram in Metatrader
 
 # Installation
 
